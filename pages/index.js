@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
-const User = require('./models/User'); // Import the User model
+const User = require('../models/User'); // Import the User model
 const path = require('path');
 require('dotenv').config(); // To use environment variables
 
