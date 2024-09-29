@@ -1,18 +1,27 @@
 {
   "name": "login-system",
   "version": "1.0.0",
+  "description": "A login system using Node.js, Express, MongoDB, and EJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "next build",
+    "vercel-build": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sameer",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "ejs": "^3.1.10",
     "express": "^4.21.0",
-    "mongoose": "^8.6.3"
+    "mongoose": "^8.6.3",
+    "next": "^13.5.7",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
